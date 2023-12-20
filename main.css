@@ -1,0 +1,31 @@
+#centralwidget{
+    position: static;
+    background: url(baclground.jpg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    border: 2px solid black;
+}
+#tableWidget{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#label{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+#voter_id_line_edit{
+    padding: 4px 30px 4px 10px;
+}
+#pushButton{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.5s ease;
+}
+#pushButton:hover{
+    background-color: black;
+    color: white;
+}
